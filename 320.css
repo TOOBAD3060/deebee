@@ -52,9 +52,9 @@
         }
 
     .topmenu-bar .side-btn a .connect{
-        margin-left: 200px;
+        /* margin-left: 200px; */
         font-size: 13px;
-        display: flex;
+        /* display: flex; */
         text-decoration: none;
     }
     .topmenu-bar .side-btn {
