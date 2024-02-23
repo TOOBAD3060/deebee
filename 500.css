@@ -1,14 +1,21 @@
 @media screen and (max-width: 500px){
     /* first session */
     .topmenu-bar .side-btn{
-        width: 50px;
+        /* width: 50px; */
         /* top: 10px; */
-        display: flex;
-        justify-content: space-between;
-        gap: 10px;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* gap: 10px; */
         margin-right: 0;
         padding-right: 0;
-        margin-left: 300px;
+        margin-left: 250px;
+    }
+    .shola img.toobad{
+      display: none;
+    }
+    .toobadimg{
+      object-fit: 100%;
+
     }
     .topmenu-bar{
         /* background-color: transparent; */
@@ -21,10 +28,10 @@
         font-size: 13px;
         /* display: flex; */
         position: relative;
-        /* top: -1px; */
+        top: -1.5px;
         left: -30px;
         border: 1px solid grey;
-        text-decoration: solid darkblue;
+        text-decoration: solid darkslategrey;
         color: #fff;
         user-select: none;
     }
