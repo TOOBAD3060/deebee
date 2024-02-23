@@ -1,0 +1,112 @@
+@media screen and (max-width: 320px) {
+    /* second session */
+    .main-contain{
+        top: 45px;
+     }
+     .main-contain .primary-contain{
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: -5rem;
+        width: 300px;
+        /* background-color: #000; */
+    }
+    .container {
+        height: 10px;
+        /* position: absolute; */
+        /* z-index: 100; */
+        background-color:#e2f2f7;
+        
+    }
+    body.active .container {
+        background-color: #252a37;
+    }
+    /* .main-contain .primary-contain .my-picture{
+        width: 300px;
+        z-index: 100;
+        height: 80vh;
+    } */
+    .main-contain .primary-contain .text {
+        margin-top: -130px;
+        /* background-color: #fff; */
+        line-height: 2rem;
+    }
+    .main-contain .primary-contain .text .write-up{
+        font-size: 15px;
+    }
+    .main-contain .primary-contain .text .second-write-up{
+        font-size: 1rem;
+    }
+    .main-contain .primary-contain .plenty{
+        margin-top: -22.5rem;
+        /* background-color: #fff; */
+        max-width: 300px;
+        /* overflow: hidden; */
+        padding: 1rem;
+        margin-left: 0rem;
+    }
+    .main-contain .primary-contain .plenty .bottom-text{
+        font-size: 0.9rem;
+    }
+   .main-contain .primary-contain .plenty .svg-file{
+        margin-top: -15rem;
+        }
+
+    .topmenu-bar .side-btn a .connect{
+        margin-left: 200px;
+        font-size: 13px;
+        display: flex;
+        text-decoration: none;
+    }
+    .topmenu-bar .side-btn {
+        margin-left: -3px;
+        gap: 10px;
+    }
+    .main-contain .primary-contain .text{
+        top: 11rem;
+    }
+    .main-contain .primary-contain .plenty{
+        top: 55rem;
+        width: 500px;
+    }
+    .container .bottom-menu-bar{
+        height: 70px;
+        overflow-y: hidden;
+        /* font-size: xx-large; */
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        /* background-color: black; */
+
+    }
+    .main-contain1 .primary-contain {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding: -5rem;
+        width: 300px;
+        /* background-color: #000; */
+    }
+    .nav-wallet{
+        left: 10px;
+        top: 386px;
+    }
+    .main-contain .primary-contain {
+        /* width: 300px; */
+        height: 90vh;
+    }
+    .modal .head .content i {
+        background: #0b1f28;
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 1.3rem;
+        align-items: center;
+        justify-content: center;
+      }
+      footer p {
+        margin-top: 10px;
+        text-align: center;
+        color: #bebebe;
+        font-size: 13px;
+      }
+
+}
